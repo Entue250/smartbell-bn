@@ -1,0 +1,11 @@
+~/smartbell/
+├── app.py            # Main Flask server + all API routes
+├── scheduler.py      # APScheduler: checks clock, fires bells
+├── seed.py           # Run once to insert default schedule
+├── smartbell.db      # SQLite database (auto-created)
+├── requirements.txt  # Python packages list
+├── static/           # Served static files (CSS, JS, images)
+└── README.md         # Project overview & setup instructions
+
+
+activate venv: .\venv\Scripts\Activate.ps1
